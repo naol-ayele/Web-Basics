@@ -1,0 +1,69 @@
+
+      nav {
+        background-color: rgba(12, 211, 72, 0.7);
+        padding: 10px;
+      }
+      nav a {
+        text-decoration: none; /* Remove underline from link */
+        color: black; /* Set link color */
+        font-weight: bold; /* Make the link text bold */
+      }
+      .ht {
+        margin-top: 60px;
+        font-family: "press Start 2P","consolas", san-serif;
+      }
+      .thePdf {
+        border-radius: 20px;
+        background-color: #000;
+        color: #fff;
+      }
+      .downfile {
+        float: right;
+        margin-right: 300px;
+        text-decoration: none;
+        background-color: rgba(67, 155, 93, 0.7);
+        border-radius: 4px;
+        
+      }
+      .download-button {
+        background-color: #007bff; /* Adjust background color */
+        color: white; /* Adjust text color */
+        padding: 10px 20px; /* Add padding for spacing */
+        border: none; /* Remove default border */
+        border-radius: 5px; /* Add rounded corners */
+        cursor: pointer; /* Indicate clickable behavior */
+        text-decoration: none; /* Remove underline from text */
+        display: inline-block; /* Allow for inline styling */
+      }
+    .download-button:active{
+        color:#77713e;
+      }
+      .download-button:link{
+        color:#000
+      }
+      .download-button:visited{
+        color:#007bff
+      }
+      .download-button:hover{
+        color:brown
+      }
+      .btn {
+        border-radius: 50px;
+        padding: 0px 0px;
+        width: 3%;
+        height: 35px;
+        background-color: #77713e; /* Adjust background color */
+        color: rgb(116, 84, 84); /* Adjust text color */
+        text-decoration: none; /* Remove underline from text */
+      }
+      .homei {
+        display: block;
+        width: 100%; /* Stretch image to fit container */
+        height: 35px;
+        border-radius: 50px;
+        object-fit: cover;
+      }
+      .body {
+        background-color: rgba(49, 37, 37, 0);
+      }
+      

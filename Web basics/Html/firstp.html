@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Flame</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="HTML, CSS" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Road map of frontend web development" />
+    <style>
+      p.Concept {
+        color: rgb(98, 145, 110);
+        font-style: italic;
+      }
+      em {
+        color: blue;
+      }
+      .image-container {
+        position: relative; /* Make the container the reference point */
+        width: 100%; /* Adjust width as needed */
+        background-size: cover;
+        background-position: center;
+      }
+
+      .image-container img {
+        display: block;
+        width: 100%; /* Stretch image to fit container */
+        height: 635px;
+        border-radius: 5px;
+        object-fit: cover;
+      }
+
+      .overlay-text {
+        position: absolute; /* Position elements relative to container */
+        top: 50%; /* Center vertically (adjust as needed) */
+        left: 50%; /* Center horizontally (adjust as needed) */
+        transform: translate(-50%, -50%); /* Center based on its own size */
+        color: rgba(
+          red,
+          green,
+          rgb(78, 78, 179),
+          alpha
+        ); /* Adjust text color for visibility on image */
+        background-color: rgba(
+          0,
+          0,
+          0,
+          0
+        ); /* Semi-transp 
+        arent background (optional) */
+        padding: 10px 20px; /* Add some padding for spacing */
+        text-align: center; /* Center text within the overlay */
+      }
+      h2 {
+        background-color: rgba(0, 8, 8, 0.7);
+        opacity: 0.8;
+        border-radius: 15px;
+        padding: 0%;
+        color: rgb(96, 173, 100);
+        font-family: "press start 2p";
+      }
+    </style>
+
+    <div class="image-container">
+      <img src="image/image.jpg" alt="Image Description" />
+      <div class="overlay-text">
+        <h2>Web Basics</h2>
+        <p class="Concept">Road map of frontend web development.</p>
+        <a href="basic.html">Basic of HTML</a>
+      </div>
+    </div>
+  </head>
+</html>
